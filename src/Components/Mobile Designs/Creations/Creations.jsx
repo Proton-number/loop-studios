@@ -21,7 +21,7 @@ function Creations() {
              whileHover={{opacity:0.8}}
              key={item.img} >
                <img
-                src={`${item.img}?w=248&fit=crop&auto=format`} alt={item.title} 
+                src={`${item.img}`} alt={item.title} 
                 />
                   <ImageListItemBar
             title={item.title}
