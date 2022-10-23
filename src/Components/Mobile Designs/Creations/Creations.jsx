@@ -2,7 +2,13 @@ import React from 'react'
 import {Box, Stack , Typography, ImageList, ImageListItem, ImageListItemBar, Button} from '@mui/material'
 import {motion} from 'framer-motion'
 import deepEarth from  '/src/images/image-deep-earth.jpg'
-
+import nightArcade from '/src/images/image-night-arcade.jpg'
+import soccerTeam from   '/src/images/image-soccer-team.jpg'
+import theGrid from '/src/images/image-grid.jpg'
+import fromAbove from '/src/images/image-from-above.jpg'
+import pocket from '/src/images/image-pocket-borealis.jpg'
+import curiosity from '/src/images/image-curiosity.jpg'
+import fishEye from '/src/images/image-fisheye.jpg'
 
 
 function Creations() {
@@ -17,7 +23,9 @@ function Creations() {
         <ImageList style={{display:'flex', flexDirection: 'column', padding:'20px', gridGap:'25px'}}>
         
         
-             <ImageListItem    >
+          <>
+
+          <ImageListItem    >
                <img
                 src={deepEarth} 
                 alt='DEEP EARTH'
@@ -29,7 +37,92 @@ function Creations() {
              </ImageListItem>
       
 
-        </ImageList>
+
+        <ImageListItem    >
+               <img
+                src={nightArcade} 
+                alt='NIGHT ARCADE'
+                />
+                  <ImageListItemBar
+            title={'NIGHT ARCADE'}
+           style={{backgroundColor: 'transparent', textAlign:'left' }}
+          />
+             </ImageListItem>
+      
+             <ImageListItem    >
+               <img
+                src={soccerTeam} 
+                alt='SOCCER TEAM VR'
+                />
+                  <ImageListItemBar
+            title={'SOCCER TEAM VR'}
+           style={{backgroundColor: 'transparent', textAlign:'left' }}
+          />
+             </ImageListItem>
+      
+       
+             <ImageListItem    >
+               <img
+                src={theGrid} 
+                alt='THE GRID'
+                />
+                  <ImageListItemBar
+            title={'THE GRID'}
+           style={{backgroundColor: 'transparent', textAlign:'left' }}
+          />
+             </ImageListItem>
+
+             <ImageListItem    >
+               <img
+                src={fromAbove} 
+                alt='FROM UP ABOVE VR'
+                />
+                  <ImageListItemBar
+            title={'FROM UP ABOVE VR'}
+           style={{backgroundColor: 'transparent', textAlign:'left' }}
+          />
+             </ImageListItem>
+     
+             <ImageListItem    >
+               <img
+                src={pocket} 
+                alt='POCKET BOREALIS'
+                />
+                  <ImageListItemBar
+            title={'POCKET BOREALIS'}
+           style={{backgroundColor: 'transparent', textAlign:'left' }}
+          />
+             </ImageListItem>
+
+
+             <ImageListItem    >
+               <img
+                src={curiosity} 
+                alt='THE CURIOSITY'
+                />
+                  <ImageListItemBar
+            title={'THE CURIOSITY'}
+           style={{backgroundColor: 'transparent', textAlign:'left' }}
+          />
+             </ImageListItem>
+
+             <ImageListItem    >
+               <img
+                src={fishEye} 
+                alt='MAKE IT FISHEYE'
+                />
+                  <ImageListItemBar
+            title={'MAKE IT FISHEYE'}
+           style={{backgroundColor: 'transparent', textAlign:'left' }}
+          />
+             </ImageListItem>
+
+
+          </>
+
+
+          </ImageList>
+
 
        </Stack>
 
