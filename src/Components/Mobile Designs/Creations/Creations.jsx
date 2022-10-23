@@ -22,7 +22,6 @@ function Creations() {
              key={item.img} >
                <img
                 src={`${item.img}?w=248&fit=crop&auto=format`} alt={item.title} 
-                loading='lazy'
                 />
                   <ImageListItemBar
             title={item.title}
@@ -57,51 +56,51 @@ export default Creations
 const itemData = [
 
     {
-          img: '/src/images/mobile/image-deep-earth.jpg',
+          img: '/src/images/image-deep-earth.jpg',
 
           title:'DEEP EARTH'
     },
 
     {
-        img: '/src/images/mobile/image-night-arcade.jpg',
+        img: '/src/images/image-night-arcade.jpg',
 
         title:'NIGHT ARCADE'
     },
 
    {
-    img: '/src/images/mobile/image-soccer-team.jpg',
+    img: '/src/images/image-soccer-team.jpg',
 
     title:'SOCCER TEAM VR'
   },
 
   {
-    img: '/src/images/mobile/image-grid.jpg',
+    img: '/src/images/image-grid.jpg',
 
     title:'THE GRID'
   },
 
   {
-    img: '/src/images/mobile/image-from-above.jpg',
+    img: '/src/images/image-from-above.jpg',
 
     title:'FROM UP ABOVE VR'
   },
 
   {
-    img: '/src/images/mobile/image-pocket-borealis.jpg',
+    img: '/src/images/image-pocket-borealis.jpg',
 
     title:'POCKET BOREALIS'
  },
 
 
   {
-    img: '/src/images/mobile/image-curiosity.jpg',
+    img: '/src/images/image-curiosity.jpg',
 
     title:'THE CURIOSITY'
   },
 
    {
 
-    img: '/src/images/mobile/image-fisheye.jpg',
+    img: '/src/images/image-fisheye.jpg',
 
     title:'MAKE IT FISHEYE'
 
