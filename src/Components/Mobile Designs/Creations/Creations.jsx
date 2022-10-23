@@ -17,8 +17,6 @@ function Creations() {
         
         {itemData.map((item) => (
              <ImageListItem 
-             component={motion.div} 
-             whileHover={{opacity:0.8}}
              key={item.img} >
                <img
                 src={`${item.img}`} alt={item.title} 
@@ -35,9 +33,6 @@ function Creations() {
        </Stack>
 
          <Button
-         component={motion.button}
-         whileHover={{backgroundColor:'black', color:'white', border:'2px solid whitesmoke'}}
-         transition={{duration:1, delay:.1}}
          size='large'
          variant='contained'
          textTransform ='uppercase' 
