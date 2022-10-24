@@ -25,20 +25,30 @@ function Creations() {
         
           <>
 
-          <ImageListItem    >
+          <ImageListItem 
+          component={motion.div}
+          whileHover={{filter:'brightness(70%)' }}
+             >
                <img
                 src={deepEarth} 
                 alt='DEEP EARTH'
                 />
                   <ImageListItemBar
             title={'DEEP EARTH'}
-           style={{backgroundColor: 'transparent', textAlign:'left' }}
+           style={{
+            backgroundColor: 'transparent',
+            textAlign:'left',
+           }}
+          
           />
              </ImageListItem>
       
 
 
-        <ImageListItem    >
+        <ImageListItem 
+          component={motion.div}
+          whileHover={{filter:'brightness(70%)'}}  
+         >
                <img
                 src={nightArcade} 
                 alt='NIGHT ARCADE'
@@ -49,7 +59,10 @@ function Creations() {
           />
              </ImageListItem>
       
-             <ImageListItem    >
+             <ImageListItem  
+               component={motion.div}
+               whileHover={{filter:'brightness(70%)'}}
+               >
                <img
                 src={soccerTeam} 
                 alt='SOCCER TEAM VR'
@@ -61,7 +74,10 @@ function Creations() {
              </ImageListItem>
       
        
-             <ImageListItem    >
+             <ImageListItem
+               component={motion.div}
+               whileHover={{filter:'brightness(70%)'}}
+               >
                <img
                 src={theGrid} 
                 alt='THE GRID'
@@ -72,7 +88,10 @@ function Creations() {
           />
              </ImageListItem>
 
-             <ImageListItem    >
+             <ImageListItem  
+               component={motion.div}
+               whileHover={{filter:'brightness(70%)'}}
+               >
                <img
                 src={fromAbove} 
                 alt='FROM UP ABOVE VR'
@@ -83,7 +102,10 @@ function Creations() {
           />
              </ImageListItem>
      
-             <ImageListItem    >
+             <ImageListItem 
+               component={motion.div}
+               whileHover={{filter:'brightness(70%)'}}
+                >
                <img
                 src={pocket} 
                 alt='POCKET BOREALIS'
@@ -95,7 +117,10 @@ function Creations() {
              </ImageListItem>
 
 
-             <ImageListItem    >
+             <ImageListItem  
+               component={motion.div}
+               whileHover={{filter:'brightness(70%)'}}
+               >
                <img
                 src={curiosity} 
                 alt='THE CURIOSITY'
@@ -106,7 +131,10 @@ function Creations() {
           />
              </ImageListItem>
 
-             <ImageListItem    >
+             <ImageListItem  
+               component={motion.div}
+               whileHover={{filter:'brightness(70%)'}}
+               >
                <img
                 src={fishEye} 
                 alt='MAKE IT FISHEYE'
@@ -127,6 +155,7 @@ function Creations() {
        </Stack>
 
          <Button
+         
          size='large'
          variant='contained'
          textTransform ='uppercase' 
