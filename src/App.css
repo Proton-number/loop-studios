@@ -1,14 +1,14 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
   /* text-align: center; */
 }
 
-
+/* 
 @media screen and (min-width:760px) {
 
  body{
   background-image: url('/src/images/desktop/image-hero.jpg');
  }
 
-}
+} */

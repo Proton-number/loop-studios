@@ -29,7 +29,7 @@ const logoVariants ={
 
 function Footer() {
   return (
-    <Box textAlign='center' p={4} backgroundColor='hsl(0, 0%, 0%)' color='hsl(0, 0%, 100%)' >
+    <Box textAlign='center' p={4} backgroundColor='hsl(0, 0%, 0%)' color='hsl(0, 0%, 100%)' id= 'mobile-footer'>
     
     <Typography variant='h4'>loopstudios</Typography>
       

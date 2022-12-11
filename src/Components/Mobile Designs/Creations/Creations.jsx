@@ -13,7 +13,7 @@ import fishEye from '/src/images/image-fisheye.jpg'
 
 function Creations() {
   return (
-    <Box textAlign='center' marginBottom='120px'  >
+    <Box id='mobile-creations' textAlign='center' marginBottom='120px'  >
       
      <Typography  variant='h4' textTransform ='uppercase' >Our creations</Typography>
 
@@ -155,7 +155,8 @@ function Creations() {
        </Stack>
 
          <Button
-         
+         component={motion.button}
+         whileHover={{color:'white', backgroundColor: 'black', border:'2px solid white'}}
          size='large'
          variant='contained'
          textTransform ='uppercase' 

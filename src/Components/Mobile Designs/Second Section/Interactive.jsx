@@ -4,7 +4,7 @@ import vrGuy from '/src/images/mobile/image-interactive.jpg'
 
 function Interactive() {
   return (
-    <Box textAlign='center' marginBottom='120px' >
+    <Box id='mobile-interactive' textAlign='center' marginBottom='120px' >
 
       <img src={vrGuy} alt="a man with a vr headset" style={{height: '236px' , width: '310px', marginBottom: '20px'}}/>
       
