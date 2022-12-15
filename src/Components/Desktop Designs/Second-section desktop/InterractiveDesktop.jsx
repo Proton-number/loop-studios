@@ -1,7 +1,6 @@
 import React from 'react'
-import {Box, Typography ,Stack} from '@mui/material'
+import {Box, Typography ,Stack, autocompleteClasses} from '@mui/material'
 import vrGuy from '/src/images/desktop/image-interactive.jpg'
-
 
 function InterractiveDesktop() {
   return (
@@ -10,11 +9,31 @@ function InterractiveDesktop() {
 
 
      <Box>
-      <img src={vrGuy} style={{width:'60%'}} />
+      <img src={vrGuy} style={{maxWidth:'60%', height:'auto', padding: 0, margin: 0}} /> 
+
+   
+
      </Box>
 
 
-      <Box position='absolute' textAlign='inherit'   right= '305px' top= '16em' style={{width:'24%', backgroundColor:'hsl(0, 13%, 94%)'}} p={8.7}>
+      <Box 
+      sx={{
+        width:{
+          xs: 100,
+          sm:200,
+          md: 300,
+          lg:400,
+          xl: 500
+        }
+      }}
+       position='absolute' 
+       textAlign='inherit'   
+       right= '305px' 
+       top= '16em' 
+       style={{
+         backgroundColor:'hsl(0, 13%, 94%)'
+         }} 
+         p={8.7}>
 
 
       <Typography variant='h4' textTransform ='uppercase' > The Leader in interractive vr</Typography>

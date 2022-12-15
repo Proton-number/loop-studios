@@ -11,47 +11,55 @@ function DesktopTop() {
 
     <Toolbar>
 
-    <Typography variant='h4' component='div'  sx={{flexGrow:3}}>
+    <Typography 
+    variant='h4' 
+    component='h2' 
+    className='hello'
+     sx={{flexGrow:3}}>
             loopstudios
         </Typography>
 
         <Typography 
-        component={motion.p} 
-        whileHover={{textDecoration:'underline'}}
-        transition={{delay: .4 }}
+        component={motion.h2} 
+        whileHover={{textDecoration:'underline', y:-5}}
+        transition={{delay: .3 }}
         variant='p'   
         sx={{flexGrow:.4}}>
             About
         </Typography>
 
         <Typography 
-        component={motion.p} 
-        whileHover={{textDecoration:'underline'}}
-        variant='p' 
+        component={motion.h2} 
+        whileHover={{textDecoration:'underline', y:-5}}
+        transition={{delay: .3 }}
+        variant='p'   
         sx={{flexGrow:0.4}}>
             Careers
         </Typography>
 
         <Typography 
-        component={motion.p} 
-        whileHover={{textDecoration:'underline'}}
-         variant='p' 
+        component={motion.h2} 
+        whileHover={{textDecoration:'underline', y:-5}}
+        transition={{delay: .3 }}
+        variant='p'   
           sx={{flexGrow:.4}}>
             Events
         </Typography>
 
         <Typography 
-        component={motion.p} 
-        whileHover={{textDecoration:'underline'}} 
-        variant='p'  
+        component={motion.h2} 
+        whileHover={{textDecoration:'underline', y:-5}} 
+        transition={{delay: .3 }}
+        variant='p'     
          sx={{flexGrow:.4}}>
             Products
         </Typography>
 
         <Typography 
-        component={motion.p} 
-        whileHover={{textDecoration:'underline'}} 
-        variant='p'  
+        component={motion.h2} 
+        whileHover={{textDecoration:'underline', y:-5}} 
+        transition={{delay: .3 }}
+        variant='p'    
          sx={{flexGrow:.4}}>
           Support
         </Typography>
